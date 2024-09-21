@@ -1,3 +1,7 @@
 -- This module serves as the root of the `Permutations` library.
 -- Import modules here that should be built as part of the library.
 import Permutations.Basic
+
+import Mathlib.Data.List.Permutation
+
+#check List.permutationsAux2_snd_cons
